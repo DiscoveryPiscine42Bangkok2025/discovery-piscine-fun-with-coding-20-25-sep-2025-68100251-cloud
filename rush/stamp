@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV 1 - My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    /* ใช้ฟอนต์ Great Vibes ทั้งเว็บ */
+    body, h1, h2, h3, h4, h5, h6,
+    p, ul, li, a {
+      font-family: 'Great Vibes', cursive;
+    }
 
+    /* ทำให้ h2 เป็นสีเหลือง */
+    h2 {
+      color: yellow;
+    }
+
+    /* เปลี่ยนพื้นหลังหน้าเว็บเป็นสีม่วงอ่อน */
+    body {
+      background-color: #D1EAF5; / light blue */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">My Portfolio</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#showcase">Showcase</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="container mt-5 pt-5">
+    <h2>About Me</h2>
+    <img src="https://cdn.discordapp.com/attachments/1420335561708933144/1420381266791890984/image.jpg?ex=68d530a3&is=68d3df23&hm=a383a574b19180c24140f56903096774fe0ff3b1d78eddd28ab82d306461168e" class="rounded-circle" width="300" alt="Profile">
+    <p>
+    <p>Hi! My name is Karnsinee Muneechim.I am student at Kmitl Business School. I enjoy watching movies.I'm passionate about book and design.</p>
+  </section>
+
+  <!-- Showcase -->
+  <section id="showcase" class="container mt-5">
+    <h2>Showcase</h2>
+    <ul>
+      <li>Experience: I have helped the student counciL,organized activities and was in charge of finances</li>
+      <li>Skills: excel, Google sheet,Canva</li>
+      <li>Achievements: Won volleyball and basketball competitions</li>
+    </ul>
+  </section>
+  
+  <!-- Contact -->
+  <section id="contact" class="container mt-5">
+    <h2>Contact</h2>
+    <a href="https://github.com/DiscoveryPiscine42Bangkok2025/discovery-piscine-fun-with-coding-20-25-sep-2025-68100251-cloud" target="_blank">GitHub</a> |
+
+    <a href="https://www.instagram.com/stamp_188?igsh=MW12OTAzY2JqbjQxYg==" target="_blank">Instagram</a>
+  </section>
+</body>
+</html>
